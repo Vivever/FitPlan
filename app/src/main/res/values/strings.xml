@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FitPlan</string>
+    <string name="start_exercise">START EXERCISE</string>
+    <string name="detail">These Exercises will help you to get in your dream shape</string>
+    <string name="body_shapes">Body Shapes</string>
+    <string name="all_level">All Level Beginners</string>
+    <string name="introduction">Introduction</string>
+    <string name="todo">TODO</string>
+    <string name="forearms">ForeArms</string>
+    <string name="biceps">Biceps</string>
+    <string name="_20_to_30_min">20 to 30 min.</string>
+    <string name="legs">Legs</string>
+</resources>
