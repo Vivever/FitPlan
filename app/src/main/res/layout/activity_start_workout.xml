@@ -65,6 +65,7 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/l1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -84,6 +85,7 @@
                     android:layout_weight="1"
                     android:paddingStart="10dp"
                     android:paddingEnd="1dp"
+                    android:singleLine="true"
                     android:text="FrontSquat"
                     android:textAlignment="viewStart"
                     android:textColor="@android:color/background_light"
@@ -101,6 +103,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -119,6 +122,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:paddingStart="10dp"
+                    android:singleLine="true"
                     android:text="@string/forearms"
                     android:textAlignment="viewStart"
                     android:textColor="@android:color/background_light"
@@ -135,6 +139,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -169,6 +174,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -203,6 +209,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -238,6 +245,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -272,6 +280,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/l7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
