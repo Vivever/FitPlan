@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 public class StartWorkoutActivity extends AppCompatActivity {
 
-    private Context context;
 
     LinearLayout linearLayout;
     @Override
@@ -23,11 +22,10 @@ public class StartWorkoutActivity extends AppCompatActivity {
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent intent= new Intent(context,Workout_detail.class);
-                context.startActivity(intent);
+                Intent intent= new Intent(StartWorkoutActivity.this,Workout_detail.class);
+              startActivity(intent);
             }
+
         });
     }
-
 }
